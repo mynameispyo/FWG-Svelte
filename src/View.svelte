@@ -1,3 +1,4 @@
+
 <script>
     
 let _GET = {};
@@ -27,6 +28,13 @@ let loadAPI = getName();
 
 <svelte:head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body, html{
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 100%;
+      }
+    </style>
 </svelte:head>
 
 
@@ -51,7 +59,7 @@ let loadAPI = getName();
 
 
 <style>
-    
+  
     iframe{
   border: none;
   width: 100%;

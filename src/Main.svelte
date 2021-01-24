@@ -22,7 +22,7 @@ function searchWt() {
     input=input.toLowerCase(); 
     let x = document.getElementsByClassName('wt'); 
       
-    for (i = 0; i < x.length; i++) {  
+    for (let i = 0; i < x.length; i++) {  
         if (!x[i].innerHTML.toLowerCase().includes(input)) { 
             x[i].style.display="none"; 
         } 
@@ -47,7 +47,7 @@ function searchWt() {
         <div class="wt">
             <a href={'/menu.html?title='+name}>
             <img src={`https://qpo9w6tvvhkbvesizqvshw-on.drv.tw/web/${name}/${name}.jpg`} alt={name}>
-            <p class="korean-font text">{loadData.webtoon.korean[name]}</p>
+            <p class="korean-font text wt">{loadData.webtoon.korean[name]}</p>
             </a>
         </div>
         {/each}

@@ -29,7 +29,6 @@ async function getName(){
 
 
         range = [];
-        console.log(data.webtoon.epi[_GET["title"]].start);
         for (let i = data.webtoon.epi[_GET["title"]].start; i <= data.webtoon.epi[_GET["title"]].end; i++) {
             range.push(i);
         }
@@ -38,12 +37,22 @@ async function getName(){
         while (/(\d+)(\d{3})/.test(save_price)){
             save_price = save_price.replace(/(\d+)(\d{3})/, '$1'+','+'$2');
         }
-
+        
       return data
 }
 
 let loadAPI = getName();
+
+function toTop() {
+  document.documentElement.scrollTop = 0;
+  console.log("totop");
+}
+function toBottom() {
+  document.documentElement.scrollTop = document.documentElement.scrollHeight;
+  console.log("todown")
+}
 </script>
+
 
 <header>
     <a href="/">Home <i class="fa fa-home" aria-hidden="true"></i></a>
@@ -62,8 +71,8 @@ let loadAPI = getName();
         </div>
         <div class="main">
         <div class="button-container">
-            <button onclick="toTop()" id="scroll-up-btn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
-            <button onclick="toBottom()" id="scroll-down-btn" title="Go to down"><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+            <button on:click={toTop} id="scroll-up-btn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+            <button on:click={toBottom} id="scroll-down-btn" title="Go to down"><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
         </div>
         <ul id="wt-tiltes">
             {#each range as i}
