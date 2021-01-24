@@ -3,8 +3,3 @@ body, html,iframe{
 	border: 0;
 	padding: 0;
   }
-  body, html{
-	overflow-y: hidden;
-	overflow-x: hidden;
-	height: 100%;
-  }
