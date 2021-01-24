@@ -1,0 +1,157 @@
+{
+    "webtoon": {
+      "titles": [
+        "Sound_Of_Your_Heart",
+        "Yumis_Cells",
+        "Now_You_Will_Die_Soon",
+        "Sweet_Home",
+        "Vigilante",
+        "Zombie_Daughter",
+        "The_Dragon_Next_The_Door",
+        "Pigpen",
+        "Lessa1",
+        "Lessa2",
+        "Ghost_Teller",
+        "bingtanghulu",
+        "Result_Of_Effort",
+        "College_Diary",
+        "My_Young_Cat_And_Old_Dog",
+        "Money_Game",
+        "Friday",
+        "Crunchy_Korean_Fried_Chicken",
+        "Skriptorium",
+        "Moon_You",
+        "Duty_After_School"
+      ],
+      "korean": {
+        "Sound_Of_Your_Heart": "마음의 소리",
+        "Pigpen": "돼지우리",
+        "Zombie_Daughter": "좀비 딸",
+        "The_Dragon_Next_The_Door": "용이 산다",
+        "My_Young_Cat_And_Old_Dog": "내 어린고양이와 늙은개",
+        "Money_Game": "머니게임",
+        "Sweet_Home": "스위트홈",
+        "Moon_You": "문유",
+        "Duty_After_School": "방과후에 전쟁활동",
+        "Now_You_Will_Die_Soon": "이제 곧 죽습니다",
+        "bingtanghulu": "빙탕후루",
+        "Ghost_Teller": "귀전구담",
+        "Crunchy_Korean_Fried_Chicken": "닭강정",
+        "Friday": "금요일",
+        "Result_Of_Effort": "노력의 결과",
+        "Yumis_Cells": "유미의 세포들",
+        "College_Diary": "대학일기",
+        "Lessa1": "레사 시즌1",
+        "Lessa2": "레사 시즌2~3",
+        "Skriptorium": "스크립토리움",
+        "Vigilante": "비질란테"
+      },
+      "epi": {
+        "Sound_Of_Your_Heart": {
+          "start": "1",
+          "end": "1237",
+          "save_price": "474800"
+        },
+        "Pigpen": {
+          "start": "1",
+          "end": "68",
+          "save_price": "17700"
+        },
+        "Zombie_Daughter": {
+          "start": "1",
+          "end": "91",
+          "save_price": "23400"
+        },
+        "The_Dragon_Next_The_Door": {
+          "start": "1",
+          "end": "197",
+          "save_price": "54600"
+        },
+        "My_Young_Cat_And_Old_Dog": {
+          "start": "1",
+          "end": "188",
+          "save_price": "35200"
+        },
+        "Money_Game": {
+          "start": "1",
+          "end": "60",
+          "save_price": "16800"
+        },
+        "Sweet_Home": {
+          "start": "1",
+          "end": "142",
+          "save_price": "40200"
+        },
+        "Now_You_Will_Die_Soon": {
+          "start": "1",
+          "end": "66",
+          "save_price": "17700"
+        },
+        "bingtanghulu": {
+          "start": "1",
+          "end": "170",
+          "save_price": "48900"
+        },
+        "Ghost_Teller": {
+          "start": "1",
+          "end": "92",
+          "save_price": "24900"
+        },
+        "Crunchy_Korean_Fried_Chicken": {
+          "start": "1",
+          "end": "47",
+          "save_price": "12000"
+        },
+        "Friday": {
+          "start": "1",
+          "end": "60",
+          "save_price": "27300"
+        },
+        "Moon_You": {
+          "start": "0",
+          "end": "66",
+          "save_price": "24000"
+        },
+        "Duty_After_School": {
+          "start": "1",
+          "end": "50",
+          "save_price": "18000"
+        },
+        "Result_Of_Effort": {
+          "start": "1",
+          "end": "32",
+          "save_price": "0"
+        },
+        "Yumis_Cells": {
+          "start": "1",
+          "end": "514",
+          "save_price": "0"
+        },
+        "College_Diary": {
+          "start": "1",
+          "end": "16",
+          "save_price": "0"
+        },
+        "Lessa1": {
+          "start": "1",
+          "end": "60",
+          "save_price": "0"
+        },
+        "Lessa2": {
+          "start": "1",
+          "end": "237",
+          "save_price": "0"
+        },
+        "Skriptorium": {
+          "start": "1",
+          "end": "12",
+          "save_price": "0"
+        },
+        "Vigilante": {
+          "start": "1",
+          "end": "141",
+          "save_price": "0"
+        }
+      }
+    }
+  }
